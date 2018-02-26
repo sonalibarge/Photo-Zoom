@@ -1,0 +1,876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08B56A561A33101CC94ED8DD12B3FBE4 /* Pods-Day4(PhotoZoom)-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8FD5C1DA014A2E6A9C7FAC01241FC81 /* Pods-Day4(PhotoZoom)-dummy.m */; };
+		0E5C11DDCD4B057EEDB89930EE86CB2E /* Pods-Day4(PhotoZoom)Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C317CFC641FBBD175CD4F3BD0B000EB /* Pods-Day4(PhotoZoom)Tests-dummy.m */; };
+		1978E83AD1B2357DBE26C256CFC4658E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1A0D24AE85936AD83C967C2F83DDDE29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2E727ACA33856E5A7509046B188A9B2E /* AgrumeServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD1B5A453FBE09E82423E7B3A04ADB /* AgrumeServiceLocator.swift */; };
+		2F104EF3355B19D3356CEFAF62E204D0 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BA196875239B4237005DD7751E8004 /* UIViewExtensions.swift */; };
+		33C0E48C19CA3E63FC28835D2A34EE8B /* Agrume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4141EEF7101FED9FF15392DB92F9DC5E /* Agrume.swift */; };
+		37F825745FBFA19D0023CE65EF9987F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5A226CB52FC8E0D012643842313DD594 /* Pods-Day4(PhotoZoom)Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1AF960D0A1C6D00A8CB56FF917B0A8C /* Pods-Day4(PhotoZoom)Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		862DA028AAF9BE6BC1E9CF9354A97843 /* Agrume-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1AF3F9FFBF623328BAFF89DF3947BC2 /* Agrume-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9002D4907C785DC121E4D3160532C63F /* AgrumeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DD387CE31D3AB0CE14B72A2EE39E58 /* AgrumeCell.swift */; };
+		971BC6F1032E34B4120AA452E91C4F5B /* Agrume-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED119CF28C0B462965F3954BA47C7430 /* Agrume-dummy.m */; };
+		97B775CAFD8F31B40132FB396BD408D3 /* Pods-Day4(PhotoZoom)-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE2272270BD621D12470A7B747B6A62 /* Pods-Day4(PhotoZoom)-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB92A22EB53A9A7B07F1A50412EDE30C /* Pods-Day4(PhotoZoom)UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50983A7868CBD9EA33551045D752683B /* Pods-Day4(PhotoZoom)UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C988191797F049929184B857FA4FE9FD /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2179E6425126621989DC27CD2D135 /* ImageDownloader.swift */; };
+		CBE814A54756E04167F0ED4D5E954626 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FD82E267E0C1D4CC738EF0EE8FBA2562 /* Pods-Day4(PhotoZoom)UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0079CFFAD9C90310B334E88E2B0BC0 /* Pods-Day4(PhotoZoom)UITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E85739D4DF2B2B3F349B3C3C70ECBD25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 709B37C87082FC138C02EA729A3F8D0C;
+			remoteInfo = Agrume;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011AE03DC5553CB2404BE62267D2CFBB /* Pods-Day4(PhotoZoom)UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Day4(PhotoZoom)UITests-frameworks.sh"; sourceTree = "<group>"; };
+		0CB74C02F9B775CC71DE6B11B815F7B8 /* Pods-Day4(PhotoZoom)Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Day4(PhotoZoom)Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		13BA196875239B4237005DD7751E8004 /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = Agrume/UIViewExtensions.swift; sourceTree = "<group>"; };
+		14C2179E6425126621989DC27CD2D135 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Agrume/ImageDownloader.swift; sourceTree = "<group>"; };
+		19B52522A0B3BAB6FDB2892EC7EEED2F /* Pods_Day4_PhotoZoom_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Day4_PhotoZoom_Tests.framework; path = "Pods-Day4(PhotoZoom)Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2FD8766575AFB72C520C461FE66CBF /* Agrume.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Agrume.xcconfig; sourceTree = "<group>"; };
+		25289A9A30C46F236DE3D1D1095C1F63 /* Pods-Day4(PhotoZoom)Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Day4(PhotoZoom)Tests-resources.sh"; sourceTree = "<group>"; };
+		27465559A9036EF65AF4D088FEFB7B22 /* Pods-Day4(PhotoZoom)Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Day4(PhotoZoom)Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2C0F22AD2D7CE2BB3430FBF7EE2DD0B9 /* Agrume.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Agrume.framework; path = Agrume.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3077FD8CADEE55CFC8184E747767EB52 /* Pods-Day4(PhotoZoom)UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Day4(PhotoZoom)UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4141EEF7101FED9FF15392DB92F9DC5E /* Agrume.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Agrume.swift; path = Agrume/Agrume.swift; sourceTree = "<group>"; };
+		442769D38E64EE27A2F5130E3CCE54C0 /* Pods-Day4(PhotoZoom)Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Day4(PhotoZoom)Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4FBD1B5A453FBE09E82423E7B3A04ADB /* AgrumeServiceLocator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AgrumeServiceLocator.swift; path = Agrume/AgrumeServiceLocator.swift; sourceTree = "<group>"; };
+		50983A7868CBD9EA33551045D752683B /* Pods-Day4(PhotoZoom)UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Day4(PhotoZoom)UITests-umbrella.h"; sourceTree = "<group>"; };
+		5724E975AC1CCA584119F99D6C3DB659 /* Pods-Day4(PhotoZoom)-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Day4(PhotoZoom)-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6BB37E63CDC13F5B0880965AEC9B1A64 /* Pods-Day4(PhotoZoom).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Day4(PhotoZoom).debug.xcconfig"; sourceTree = "<group>"; };
+		6C317CFC641FBBD175CD4F3BD0B000EB /* Pods-Day4(PhotoZoom)Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Day4(PhotoZoom)Tests-dummy.m"; sourceTree = "<group>"; };
+		7D074CF74C841BCAF61BBC69CA49AAEB /* Pods-Day4(PhotoZoom)Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Day4(PhotoZoom)Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		82D6CA4157440E050085C3519D6EBE17 /* Pods-Day4(PhotoZoom)UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Day4(PhotoZoom)UITests.release.xcconfig"; sourceTree = "<group>"; };
+		880B58EEC556C72C54B9BDC5C7F457ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9066EB1CB59205308956E509850A4EC3 /* Pods-Day4(PhotoZoom)UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Day4(PhotoZoom)UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91DD387CE31D3AB0CE14B72A2EE39E58 /* AgrumeCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AgrumeCell.swift; path = Agrume/AgrumeCell.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9634AE276815C83C8D1EDF6D88D9C319 /* Pods-Day4(PhotoZoom).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Day4(PhotoZoom).release.xcconfig"; sourceTree = "<group>"; };
+		971228F38F372E772C9B528EF3A12797 /* Pods-Day4(PhotoZoom)Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Day4(PhotoZoom)Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9FB55E2DA4F87531E93E707C14384A64 /* Agrume-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Agrume-prefix.pch"; sourceTree = "<group>"; };
+		A11A90ED3A7B0C98CC98D35C6AB39477 /* Pods-Day4(PhotoZoom)-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Day4(PhotoZoom)-acknowledgements.plist"; sourceTree = "<group>"; };
+		A1AF3F9FFBF623328BAFF89DF3947BC2 /* Agrume-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Agrume-umbrella.h"; sourceTree = "<group>"; };
+		ADA08001272EAA34DA9D15AF831434B2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0918B075FC6136534561B874FFEAE91 /* Pods-Day4(PhotoZoom)Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Day4(PhotoZoom)Tests.modulemap"; sourceTree = "<group>"; };
+		B1AF960D0A1C6D00A8CB56FF917B0A8C /* Pods-Day4(PhotoZoom)Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Day4(PhotoZoom)Tests-umbrella.h"; sourceTree = "<group>"; };
+		B9EB751399A067EEC91C57E232D10E52 /* Pods-Day4(PhotoZoom)UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Day4(PhotoZoom)UITests.modulemap"; sourceTree = "<group>"; };
+		C279716BA94F7204120F3D1C6889633B /* Pods_Day4_PhotoZoom_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Day4_PhotoZoom_.framework; path = "Pods-Day4(PhotoZoom).framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33084E8B608B0CE2E6E78024377D7E3 /* Pods-Day4(PhotoZoom)-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Day4(PhotoZoom)-resources.sh"; sourceTree = "<group>"; };
+		C8FD5C1DA014A2E6A9C7FAC01241FC81 /* Pods-Day4(PhotoZoom)-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Day4(PhotoZoom)-dummy.m"; sourceTree = "<group>"; };
+		CB0079CFFAD9C90310B334E88E2B0BC0 /* Pods-Day4(PhotoZoom)UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Day4(PhotoZoom)UITests-dummy.m"; sourceTree = "<group>"; };
+		CB1BC574D17E9CFEBBEF535081253484 /* Pods-Day4(PhotoZoom)-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Day4(PhotoZoom)-frameworks.sh"; sourceTree = "<group>"; };
+		CCE2272270BD621D12470A7B747B6A62 /* Pods-Day4(PhotoZoom)-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Day4(PhotoZoom)-umbrella.h"; sourceTree = "<group>"; };
+		DB299441E37C104D0E6B56AE6B29D6F4 /* Pods-Day4(PhotoZoom).modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Day4(PhotoZoom).modulemap"; sourceTree = "<group>"; };
+		DDE38B8262754273A0B66879731CEC88 /* Pods-Day4(PhotoZoom)UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Day4(PhotoZoom)UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E3B1A7C406C709CDE0A511BCF1103A1B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E45347E438ED8968FACC4F9FAFD2D616 /* Agrume.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Agrume.modulemap; sourceTree = "<group>"; };
+		EC4209D501C91EED7597FECF457E8616 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED119CF28C0B462965F3954BA47C7430 /* Agrume-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Agrume-dummy.m"; sourceTree = "<group>"; };
+		F4F042347E16800A9718F8A4D7D5A24B /* Pods_Day4_PhotoZoom_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Day4_PhotoZoom_UITests.framework; path = "Pods-Day4(PhotoZoom)UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F983F97B827B714D6CE60F806861DA7F /* Pods-Day4(PhotoZoom)UITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Day4(PhotoZoom)UITests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0056CB534C6987427B64C6B159403162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE814A54756E04167F0ED4D5E954626 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4981928ED6A0716FA48E4B167C148C2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F825745FBFA19D0023CE65EF9987F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D921DB33D101AFC51E11005C7FEC19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1978E83AD1B2357DBE26C256CFC4658E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F2F20CF2EAE79E8AE5ACBB2ECE0F24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0D24AE85936AD83C967C2F83DDDE29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28D42C06BB3D37B07CB604168A8DB674 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEEDDC945B98D1CCA28DA73E6B919580 /* Agrume */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2A654EA329A0B8F0D7E0466E9F7C2575 /* Pods-Day4(PhotoZoom)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E3B1A7C406C709CDE0A511BCF1103A1B /* Info.plist */,
+				B0918B075FC6136534561B874FFEAE91 /* Pods-Day4(PhotoZoom)Tests.modulemap */,
+				27465559A9036EF65AF4D088FEFB7B22 /* Pods-Day4(PhotoZoom)Tests-acknowledgements.markdown */,
+				7D074CF74C841BCAF61BBC69CA49AAEB /* Pods-Day4(PhotoZoom)Tests-acknowledgements.plist */,
+				6C317CFC641FBBD175CD4F3BD0B000EB /* Pods-Day4(PhotoZoom)Tests-dummy.m */,
+				442769D38E64EE27A2F5130E3CCE54C0 /* Pods-Day4(PhotoZoom)Tests-frameworks.sh */,
+				25289A9A30C46F236DE3D1D1095C1F63 /* Pods-Day4(PhotoZoom)Tests-resources.sh */,
+				B1AF960D0A1C6D00A8CB56FF917B0A8C /* Pods-Day4(PhotoZoom)Tests-umbrella.h */,
+				0CB74C02F9B775CC71DE6B11B815F7B8 /* Pods-Day4(PhotoZoom)Tests.debug.xcconfig */,
+				971228F38F372E772C9B528EF3A12797 /* Pods-Day4(PhotoZoom)Tests.release.xcconfig */,
+			);
+			name = "Pods-Day4(PhotoZoom)Tests";
+			path = "Target Support Files/Pods-Day4(PhotoZoom)Tests";
+			sourceTree = "<group>";
+		};
+		4AAF2E1D10FBD3CE36041D9B9388D06C /* Pods-Day4(PhotoZoom) */ = {
+			isa = PBXGroup;
+			children = (
+				ADA08001272EAA34DA9D15AF831434B2 /* Info.plist */,
+				DB299441E37C104D0E6B56AE6B29D6F4 /* Pods-Day4(PhotoZoom).modulemap */,
+				5724E975AC1CCA584119F99D6C3DB659 /* Pods-Day4(PhotoZoom)-acknowledgements.markdown */,
+				A11A90ED3A7B0C98CC98D35C6AB39477 /* Pods-Day4(PhotoZoom)-acknowledgements.plist */,
+				C8FD5C1DA014A2E6A9C7FAC01241FC81 /* Pods-Day4(PhotoZoom)-dummy.m */,
+				CB1BC574D17E9CFEBBEF535081253484 /* Pods-Day4(PhotoZoom)-frameworks.sh */,
+				C33084E8B608B0CE2E6E78024377D7E3 /* Pods-Day4(PhotoZoom)-resources.sh */,
+				CCE2272270BD621D12470A7B747B6A62 /* Pods-Day4(PhotoZoom)-umbrella.h */,
+				6BB37E63CDC13F5B0880965AEC9B1A64 /* Pods-Day4(PhotoZoom).debug.xcconfig */,
+				9634AE276815C83C8D1EDF6D88D9C319 /* Pods-Day4(PhotoZoom).release.xcconfig */,
+			);
+			name = "Pods-Day4(PhotoZoom)";
+			path = "Target Support Files/Pods-Day4(PhotoZoom)";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				28D42C06BB3D37B07CB604168A8DB674 /* Pods */,
+				FE78C9FA8BC44882D04500D6662AB905 /* Products */,
+				C9CF42BB6C3EB0126DAC4F3782952445 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9CF42BB6C3EB0126DAC4F3782952445 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AAF2E1D10FBD3CE36041D9B9388D06C /* Pods-Day4(PhotoZoom) */,
+				2A654EA329A0B8F0D7E0466E9F7C2575 /* Pods-Day4(PhotoZoom)Tests */,
+				CDAEE6C33BB6861A2E81966651C54FE4 /* Pods-Day4(PhotoZoom)UITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CDAEE6C33BB6861A2E81966651C54FE4 /* Pods-Day4(PhotoZoom)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				880B58EEC556C72C54B9BDC5C7F457ED /* Info.plist */,
+				B9EB751399A067EEC91C57E232D10E52 /* Pods-Day4(PhotoZoom)UITests.modulemap */,
+				9066EB1CB59205308956E509850A4EC3 /* Pods-Day4(PhotoZoom)UITests-acknowledgements.markdown */,
+				DDE38B8262754273A0B66879731CEC88 /* Pods-Day4(PhotoZoom)UITests-acknowledgements.plist */,
+				CB0079CFFAD9C90310B334E88E2B0BC0 /* Pods-Day4(PhotoZoom)UITests-dummy.m */,
+				011AE03DC5553CB2404BE62267D2CFBB /* Pods-Day4(PhotoZoom)UITests-frameworks.sh */,
+				F983F97B827B714D6CE60F806861DA7F /* Pods-Day4(PhotoZoom)UITests-resources.sh */,
+				50983A7868CBD9EA33551045D752683B /* Pods-Day4(PhotoZoom)UITests-umbrella.h */,
+				3077FD8CADEE55CFC8184E747767EB52 /* Pods-Day4(PhotoZoom)UITests.debug.xcconfig */,
+				82D6CA4157440E050085C3519D6EBE17 /* Pods-Day4(PhotoZoom)UITests.release.xcconfig */,
+			);
+			name = "Pods-Day4(PhotoZoom)UITests";
+			path = "Target Support Files/Pods-Day4(PhotoZoom)UITests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DB4B23557EAE9653C2F4372AD5B8F17C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E45347E438ED8968FACC4F9FAFD2D616 /* Agrume.modulemap */,
+				1A2FD8766575AFB72C520C461FE66CBF /* Agrume.xcconfig */,
+				ED119CF28C0B462965F3954BA47C7430 /* Agrume-dummy.m */,
+				9FB55E2DA4F87531E93E707C14384A64 /* Agrume-prefix.pch */,
+				A1AF3F9FFBF623328BAFF89DF3947BC2 /* Agrume-umbrella.h */,
+				EC4209D501C91EED7597FECF457E8616 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Agrume";
+			sourceTree = "<group>";
+		};
+		EEEDDC945B98D1CCA28DA73E6B919580 /* Agrume */ = {
+			isa = PBXGroup;
+			children = (
+				4141EEF7101FED9FF15392DB92F9DC5E /* Agrume.swift */,
+				91DD387CE31D3AB0CE14B72A2EE39E58 /* AgrumeCell.swift */,
+				4FBD1B5A453FBE09E82423E7B3A04ADB /* AgrumeServiceLocator.swift */,
+				14C2179E6425126621989DC27CD2D135 /* ImageDownloader.swift */,
+				13BA196875239B4237005DD7751E8004 /* UIViewExtensions.swift */,
+				DB4B23557EAE9653C2F4372AD5B8F17C /* Support Files */,
+			);
+			name = Agrume;
+			path = Agrume;
+			sourceTree = "<group>";
+		};
+		FE78C9FA8BC44882D04500D6662AB905 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C0F22AD2D7CE2BB3430FBF7EE2DD0B9 /* Agrume.framework */,
+				C279716BA94F7204120F3D1C6889633B /* Pods_Day4_PhotoZoom_.framework */,
+				19B52522A0B3BAB6FDB2892EC7EEED2F /* Pods_Day4_PhotoZoom_Tests.framework */,
+				F4F042347E16800A9718F8A4D7D5A24B /* Pods_Day4_PhotoZoom_UITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		20E935AF4AF05BE7E86FF266937D199A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A226CB52FC8E0D012643842313DD594 /* Pods-Day4(PhotoZoom)Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98378EFB6E5EE9C2AC2AEE2CFB661827 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97B775CAFD8F31B40132FB396BD408D3 /* Pods-Day4(PhotoZoom)-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00C7819ABB985A5D1DE1846A76C0292 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				862DA028AAF9BE6BC1E9CF9354A97843 /* Agrume-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E039CA881329AAC14A058F0689050FB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB92A22EB53A9A7B07F1A50412EDE30C /* Pods-Day4(PhotoZoom)UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2F6656CB6F0A51A3EDDD0904ECA5F974 /* Pods-Day4(PhotoZoom)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA22BB86A9DE5FA1F6D454BC674AE4B5 /* Build configuration list for PBXNativeTarget "Pods-Day4(PhotoZoom)UITests" */;
+			buildPhases = (
+				5C52BF01596C584FEE9584A7DA704F09 /* Sources */,
+				0056CB534C6987427B64C6B159403162 /* Frameworks */,
+				E039CA881329AAC14A058F0689050FB2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Day4(PhotoZoom)UITests";
+			productName = "Pods-Day4(PhotoZoom)UITests";
+			productReference = F4F042347E16800A9718F8A4D7D5A24B /* Pods_Day4_PhotoZoom_UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		462EBDF550B05A87FA8D6069F44052A8 /* Pods-Day4(PhotoZoom)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D867C07851C96142467E7E663B5CBFF5 /* Build configuration list for PBXNativeTarget "Pods-Day4(PhotoZoom)Tests" */;
+			buildPhases = (
+				3248DD6575FB486570CAF57FAD701D63 /* Sources */,
+				49D921DB33D101AFC51E11005C7FEC19 /* Frameworks */,
+				20E935AF4AF05BE7E86FF266937D199A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Day4(PhotoZoom)Tests";
+			productName = "Pods-Day4(PhotoZoom)Tests";
+			productReference = 19B52522A0B3BAB6FDB2892EC7EEED2F /* Pods_Day4_PhotoZoom_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		599A1CDF5E978A90B20DF488FA35D998 /* Pods-Day4(PhotoZoom) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98DB1B395581DA69021ED5BC5DE1A8EB /* Build configuration list for PBXNativeTarget "Pods-Day4(PhotoZoom)" */;
+			buildPhases = (
+				53E7CADB262F8E456F0A320378317E10 /* Sources */,
+				69F2F20CF2EAE79E8AE5ACBB2ECE0F24 /* Frameworks */,
+				98378EFB6E5EE9C2AC2AEE2CFB661827 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AB13100A5B015248B1ABC93D8CF6C48 /* PBXTargetDependency */,
+			);
+			name = "Pods-Day4(PhotoZoom)";
+			productName = "Pods-Day4(PhotoZoom)";
+			productReference = C279716BA94F7204120F3D1C6889633B /* Pods_Day4_PhotoZoom_.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		709B37C87082FC138C02EA729A3F8D0C /* Agrume */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E54D2D2FF9F14CECA9AE8FA62C06D532 /* Build configuration list for PBXNativeTarget "Agrume" */;
+			buildPhases = (
+				315E067EAFEEFDB025D89867EE02005B /* Sources */,
+				4981928ED6A0716FA48E4B167C148C2D /* Frameworks */,
+				E00C7819ABB985A5D1DE1846A76C0292 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Agrume;
+			productName = Agrume;
+			productReference = 2C0F22AD2D7CE2BB3430FBF7EE2DD0B9 /* Agrume.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FE78C9FA8BC44882D04500D6662AB905 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				709B37C87082FC138C02EA729A3F8D0C /* Agrume */,
+				599A1CDF5E978A90B20DF488FA35D998 /* Pods-Day4(PhotoZoom) */,
+				462EBDF550B05A87FA8D6069F44052A8 /* Pods-Day4(PhotoZoom)Tests */,
+				2F6656CB6F0A51A3EDDD0904ECA5F974 /* Pods-Day4(PhotoZoom)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		315E067EAFEEFDB025D89867EE02005B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971BC6F1032E34B4120AA452E91C4F5B /* Agrume-dummy.m in Sources */,
+				33C0E48C19CA3E63FC28835D2A34EE8B /* Agrume.swift in Sources */,
+				9002D4907C785DC121E4D3160532C63F /* AgrumeCell.swift in Sources */,
+				2E727ACA33856E5A7509046B188A9B2E /* AgrumeServiceLocator.swift in Sources */,
+				C988191797F049929184B857FA4FE9FD /* ImageDownloader.swift in Sources */,
+				2F104EF3355B19D3356CEFAF62E204D0 /* UIViewExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3248DD6575FB486570CAF57FAD701D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E5C11DDCD4B057EEDB89930EE86CB2E /* Pods-Day4(PhotoZoom)Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E7CADB262F8E456F0A320378317E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B56A561A33101CC94ED8DD12B3FBE4 /* Pods-Day4(PhotoZoom)-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C52BF01596C584FEE9584A7DA704F09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD82E267E0C1D4CC738EF0EE8FBA2562 /* Pods-Day4(PhotoZoom)UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AB13100A5B015248B1ABC93D8CF6C48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Agrume;
+			target = 709B37C87082FC138C02EA729A3F8D0C /* Agrume */;
+			targetProxy = E85739D4DF2B2B3F349B3C3C70ECBD25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		120BDC056A078B6D18B62A954A693FC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82D6CA4157440E050085C3519D6EBE17 /* Pods-Day4(PhotoZoom)UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Day4(PhotoZoom)UITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Day4(PhotoZoom)UITests/Pods-Day4(PhotoZoom)UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Day4_PhotoZoom_UITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1D29C6674D6949357813F2FACEFA6E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3077FD8CADEE55CFC8184E747767EB52 /* Pods-Day4(PhotoZoom)UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Day4(PhotoZoom)UITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Day4(PhotoZoom)UITests/Pods-Day4(PhotoZoom)UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Day4_PhotoZoom_UITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		93967A28FE8A4AEC651DA133E25C7674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 971228F38F372E772C9B528EF3A12797 /* Pods-Day4(PhotoZoom)Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Day4(PhotoZoom)Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Day4(PhotoZoom)Tests/Pods-Day4(PhotoZoom)Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Day4_PhotoZoom_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A80D0843E16AEF9E90EC8B2E8BDC653E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A2FD8766575AFB72C520C461FE66CBF /* Agrume.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Agrume/Agrume-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Agrume/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Agrume/Agrume.modulemap";
+				PRODUCT_NAME = Agrume;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B47CE8825518D91A5589C74A5B71A803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A2FD8766575AFB72C520C461FE66CBF /* Agrume.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Agrume/Agrume-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Agrume/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Agrume/Agrume.modulemap";
+				PRODUCT_NAME = Agrume;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D64946E9FDE2E2A69077681EC1E2B115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BB37E63CDC13F5B0880965AEC9B1A64 /* Pods-Day4(PhotoZoom).debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Day4(PhotoZoom)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Day4(PhotoZoom)/Pods-Day4(PhotoZoom).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Day4_PhotoZoom_;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD43F6D0968C87BC407C320138B8A793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9634AE276815C83C8D1EDF6D88D9C319 /* Pods-Day4(PhotoZoom).release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Day4(PhotoZoom)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Day4(PhotoZoom)/Pods-Day4(PhotoZoom).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Day4_PhotoZoom_;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1E2616264AD2238ED18B8530E23B17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CB74C02F9B775CC71DE6B11B815F7B8 /* Pods-Day4(PhotoZoom)Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Day4(PhotoZoom)Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Day4(PhotoZoom)Tests/Pods-Day4(PhotoZoom)Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Day4_PhotoZoom_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
+				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98DB1B395581DA69021ED5BC5DE1A8EB /* Build configuration list for PBXNativeTarget "Pods-Day4(PhotoZoom)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64946E9FDE2E2A69077681EC1E2B115 /* Debug */,
+				DD43F6D0968C87BC407C320138B8A793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA22BB86A9DE5FA1F6D454BC674AE4B5 /* Build configuration list for PBXNativeTarget "Pods-Day4(PhotoZoom)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D29C6674D6949357813F2FACEFA6E98 /* Debug */,
+				120BDC056A078B6D18B62A954A693FC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D867C07851C96142467E7E663B5CBFF5 /* Build configuration list for PBXNativeTarget "Pods-Day4(PhotoZoom)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E2616264AD2238ED18B8530E23B17D /* Debug */,
+				93967A28FE8A4AEC651DA133E25C7674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E54D2D2FF9F14CECA9AE8FA62C06D532 /* Build configuration list for PBXNativeTarget "Agrume" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80D0843E16AEF9E90EC8B2E8BDC653E /* Debug */,
+				B47CE8825518D91A5589C74A5B71A803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		473433E120206797000FC0FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473433E020206797000FC0FA /* AppDelegate.swift */; };
+		473433E320206797000FC0FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473433E220206797000FC0FA /* ViewController.swift */; };
+		473433E620206797000FC0FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 473433E420206797000FC0FA /* Main.storyboard */; };
+		473433E820206797000FC0FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 473433E720206797000FC0FA /* Assets.xcassets */; };
+		473433EB20206797000FC0FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 473433E920206797000FC0FA /* LaunchScreen.storyboard */; };
+		473433F620206797000FC0FA /* Day4_PhotoZoom_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473433F520206797000FC0FA /* Day4_PhotoZoom_Tests.swift */; };
+		4734340120206797000FC0FA /* Day4_PhotoZoom_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4734340020206797000FC0FA /* Day4_PhotoZoom_UITests.swift */; };
+		76B3683333341CD68FA88B2C /* Pods_Day4_PhotoZoom_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FFF7E35C9DA1248BACBD4E /* Pods_Day4_PhotoZoom_UITests.framework */; };
+		78E23127B87E42525FC3C57D /* Pods_Day4_PhotoZoom_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 162E2BD7E72DF276DE48F23E /* Pods_Day4_PhotoZoom_Tests.framework */; };
+		EC6D70EA94F53B6D57CE2204 /* Pods_Day4_PhotoZoom_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FCFE98E325CC9F34A35AC5 /* Pods_Day4_PhotoZoom_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		473433F220206797000FC0FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473433D520206797000FC0FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 473433DC20206797000FC0FA;
+			remoteInfo = "Day4(PhotoZoom)";
+		};
+		473433FD20206797000FC0FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473433D520206797000FC0FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 473433DC20206797000FC0FA;
+			remoteInfo = "Day4(PhotoZoom)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		063FB54194C1107FCAC72D41 /* Pods-Day4(PhotoZoom).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day4(PhotoZoom).debug.xcconfig"; path = "Pods/Target Support Files/Pods-Day4(PhotoZoom)/Pods-Day4(PhotoZoom).debug.xcconfig"; sourceTree = "<group>"; };
+		162E2BD7E72DF276DE48F23E /* Pods_Day4_PhotoZoom_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Day4_PhotoZoom_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25FCFE98E325CC9F34A35AC5 /* Pods_Day4_PhotoZoom_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Day4_PhotoZoom_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		473433DD20206797000FC0FA /* Day4(PhotoZoom).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day4(PhotoZoom).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		473433E020206797000FC0FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		473433E220206797000FC0FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		473433E520206797000FC0FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		473433E720206797000FC0FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		473433EA20206797000FC0FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		473433EC20206797000FC0FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		473433F120206797000FC0FA /* Day4(PhotoZoom)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day4(PhotoZoom)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		473433F520206797000FC0FA /* Day4_PhotoZoom_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4_PhotoZoom_Tests.swift; sourceTree = "<group>"; };
+		473433F720206797000FC0FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		473433FC20206797000FC0FA /* Day4(PhotoZoom)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day4(PhotoZoom)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4734340020206797000FC0FA /* Day4_PhotoZoom_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4_PhotoZoom_UITests.swift; sourceTree = "<group>"; };
+		4734340220206797000FC0FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4990CB503D367B6EA7D1C707 /* Pods-Day4(PhotoZoom)UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day4(PhotoZoom)UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Day4(PhotoZoom)UITests/Pods-Day4(PhotoZoom)UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7412C34F460F93B5AB49C90D /* Pods-Day4(PhotoZoom).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day4(PhotoZoom).release.xcconfig"; path = "Pods/Target Support Files/Pods-Day4(PhotoZoom)/Pods-Day4(PhotoZoom).release.xcconfig"; sourceTree = "<group>"; };
+		88C6D765D047655B22B58035 /* Pods-Day4(PhotoZoom)Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day4(PhotoZoom)Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Day4(PhotoZoom)Tests/Pods-Day4(PhotoZoom)Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B02FC01D6C9CA1F7DADC1541 /* Pods-Day4(PhotoZoom)UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day4(PhotoZoom)UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Day4(PhotoZoom)UITests/Pods-Day4(PhotoZoom)UITests.release.xcconfig"; sourceTree = "<group>"; };
+		B2FFF7E35C9DA1248BACBD4E /* Pods_Day4_PhotoZoom_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Day4_PhotoZoom_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6873AF04228FBE36938A1F /* Pods-Day4(PhotoZoom)Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day4(PhotoZoom)Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Day4(PhotoZoom)Tests/Pods-Day4(PhotoZoom)Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		473433DA20206797000FC0FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6D70EA94F53B6D57CE2204 /* Pods_Day4_PhotoZoom_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473433EE20206797000FC0FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E23127B87E42525FC3C57D /* Pods_Day4_PhotoZoom_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473433F920206797000FC0FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B3683333341CD68FA88B2C /* Pods_Day4_PhotoZoom_UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		282FA7DA26FAAA3065F18BD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				063FB54194C1107FCAC72D41 /* Pods-Day4(PhotoZoom).debug.xcconfig */,
+				7412C34F460F93B5AB49C90D /* Pods-Day4(PhotoZoom).release.xcconfig */,
+				EE6873AF04228FBE36938A1F /* Pods-Day4(PhotoZoom)Tests.debug.xcconfig */,
+				88C6D765D047655B22B58035 /* Pods-Day4(PhotoZoom)Tests.release.xcconfig */,
+				4990CB503D367B6EA7D1C707 /* Pods-Day4(PhotoZoom)UITests.debug.xcconfig */,
+				B02FC01D6C9CA1F7DADC1541 /* Pods-Day4(PhotoZoom)UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		473433D420206797000FC0FA = {
+			isa = PBXGroup;
+			children = (
+				473433DF20206797000FC0FA /* Day4(PhotoZoom) */,
+				473433F420206797000FC0FA /* Day4(PhotoZoom)Tests */,
+				473433FF20206797000FC0FA /* Day4(PhotoZoom)UITests */,
+				473433DE20206797000FC0FA /* Products */,
+				282FA7DA26FAAA3065F18BD0 /* Pods */,
+				82BE3CF70345B9DFD66FC81E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		473433DE20206797000FC0FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				473433DD20206797000FC0FA /* Day4(PhotoZoom).app */,
+				473433F120206797000FC0FA /* Day4(PhotoZoom)Tests.xctest */,
+				473433FC20206797000FC0FA /* Day4(PhotoZoom)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		473433DF20206797000FC0FA /* Day4(PhotoZoom) */ = {
+			isa = PBXGroup;
+			children = (
+				473433E020206797000FC0FA /* AppDelegate.swift */,
+				473433E220206797000FC0FA /* ViewController.swift */,
+				473433E420206797000FC0FA /* Main.storyboard */,
+				473433E720206797000FC0FA /* Assets.xcassets */,
+				473433E920206797000FC0FA /* LaunchScreen.storyboard */,
+				473433EC20206797000FC0FA /* Info.plist */,
+			);
+			path = "Day4(PhotoZoom)";
+			sourceTree = "<group>";
+		};
+		473433F420206797000FC0FA /* Day4(PhotoZoom)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				473433F520206797000FC0FA /* Day4_PhotoZoom_Tests.swift */,
+				473433F720206797000FC0FA /* Info.plist */,
+			);
+			path = "Day4(PhotoZoom)Tests";
+			sourceTree = "<group>";
+		};
+		473433FF20206797000FC0FA /* Day4(PhotoZoom)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4734340020206797000FC0FA /* Day4_PhotoZoom_UITests.swift */,
+				4734340220206797000FC0FA /* Info.plist */,
+			);
+			path = "Day4(PhotoZoom)UITests";
+			sourceTree = "<group>";
+		};
+		82BE3CF70345B9DFD66FC81E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25FCFE98E325CC9F34A35AC5 /* Pods_Day4_PhotoZoom_.framework */,
+				162E2BD7E72DF276DE48F23E /* Pods_Day4_PhotoZoom_Tests.framework */,
+				B2FFF7E35C9DA1248BACBD4E /* Pods_Day4_PhotoZoom_UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		473433DC20206797000FC0FA /* Day4(PhotoZoom) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4734340520206797000FC0FA /* Build configuration list for PBXNativeTarget "Day4(PhotoZoom)" */;
+			buildPhases = (
+				25C8CFD64C32A450AE3B09D1 /* [CP] Check Pods Manifest.lock */,
+				473433D920206797000FC0FA /* Sources */,
+				473433DA20206797000FC0FA /* Frameworks */,
+				473433DB20206797000FC0FA /* Resources */,
+				AC384154C063E74CF0E2B436 /* [CP] Embed Pods Frameworks */,
+				C0C7DD27F6B956106B147CA9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Day4(PhotoZoom)";
+			productName = "Day4(PhotoZoom)";
+			productReference = 473433DD20206797000FC0FA /* Day4(PhotoZoom).app */;
+			productType = "com.apple.product-type.application";
+		};
+		473433F020206797000FC0FA /* Day4(PhotoZoom)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4734340820206797000FC0FA /* Build configuration list for PBXNativeTarget "Day4(PhotoZoom)Tests" */;
+			buildPhases = (
+				D7FD229B851ABD70F758C6B8 /* [CP] Check Pods Manifest.lock */,
+				473433ED20206797000FC0FA /* Sources */,
+				473433EE20206797000FC0FA /* Frameworks */,
+				473433EF20206797000FC0FA /* Resources */,
+				79CF85F510C2C023CBBCB3F5 /* [CP] Embed Pods Frameworks */,
+				5ABB8A4959C466A6D09B63B3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				473433F320206797000FC0FA /* PBXTargetDependency */,
+			);
+			name = "Day4(PhotoZoom)Tests";
+			productName = "Day4(PhotoZoom)Tests";
+			productReference = 473433F120206797000FC0FA /* Day4(PhotoZoom)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		473433FB20206797000FC0FA /* Day4(PhotoZoom)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4734340B20206797000FC0FA /* Build configuration list for PBXNativeTarget "Day4(PhotoZoom)UITests" */;
+			buildPhases = (
+				A30ECF5C01CC8D1F678C5340 /* [CP] Check Pods Manifest.lock */,
+				473433F820206797000FC0FA /* Sources */,
+				473433F920206797000FC0FA /* Frameworks */,
+				473433FA20206797000FC0FA /* Resources */,
+				3299952192B2FBA350BA3725 /* [CP] Embed Pods Frameworks */,
+				2D627FC13B317AE112CE782E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				473433FE20206797000FC0FA /* PBXTargetDependency */,
+			);
+			name = "Day4(PhotoZoom)UITests";
+			productName = "Day4(PhotoZoom)UITests";
+			productReference = 473433FC20206797000FC0FA /* Day4(PhotoZoom)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		473433D520206797000FC0FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Sonali;
+				TargetAttributes = {
+					473433DC20206797000FC0FA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					473433F020206797000FC0FA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 473433DC20206797000FC0FA;
+					};
+					473433FB20206797000FC0FA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 473433DC20206797000FC0FA;
+					};
+				};
+			};
+			buildConfigurationList = 473433D820206797000FC0FA /* Build configuration list for PBXProject "Day4(PhotoZoom)" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 473433D420206797000FC0FA;
+			productRefGroup = 473433DE20206797000FC0FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				473433DC20206797000FC0FA /* Day4(PhotoZoom) */,
+				473433F020206797000FC0FA /* Day4(PhotoZoom)Tests */,
+				473433FB20206797000FC0FA /* Day4(PhotoZoom)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		473433DB20206797000FC0FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473433EB20206797000FC0FA /* LaunchScreen.storyboard in Resources */,
+				473433E820206797000FC0FA /* Assets.xcassets in Resources */,
+				473433E620206797000FC0FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473433EF20206797000FC0FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473433FA20206797000FC0FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25C8CFD64C32A450AE3B09D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Day4(PhotoZoom)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D627FC13B317AE112CE782E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Day4(PhotoZoom)UITests/Pods-Day4(PhotoZoom)UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3299952192B2FBA350BA3725 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Day4(PhotoZoom)UITests/Pods-Day4(PhotoZoom)UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5ABB8A4959C466A6D09B63B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Day4(PhotoZoom)Tests/Pods-Day4(PhotoZoom)Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79CF85F510C2C023CBBCB3F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Day4(PhotoZoom)Tests/Pods-Day4(PhotoZoom)Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A30ECF5C01CC8D1F678C5340 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Day4(PhotoZoom)UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC384154C063E74CF0E2B436 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Day4(PhotoZoom)/Pods-Day4(PhotoZoom)-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Agrume/Agrume.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Agrume.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Day4(PhotoZoom)/Pods-Day4(PhotoZoom)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0C7DD27F6B956106B147CA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Day4(PhotoZoom)/Pods-Day4(PhotoZoom)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7FD229B851ABD70F758C6B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Day4(PhotoZoom)Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		473433D920206797000FC0FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473433E320206797000FC0FA /* ViewController.swift in Sources */,
+				473433E120206797000FC0FA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473433ED20206797000FC0FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473433F620206797000FC0FA /* Day4_PhotoZoom_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473433F820206797000FC0FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4734340120206797000FC0FA /* Day4_PhotoZoom_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		473433F320206797000FC0FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 473433DC20206797000FC0FA /* Day4(PhotoZoom) */;
+			targetProxy = 473433F220206797000FC0FA /* PBXContainerItemProxy */;
+		};
+		473433FE20206797000FC0FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 473433DC20206797000FC0FA /* Day4(PhotoZoom) */;
+			targetProxy = 473433FD20206797000FC0FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		473433E420206797000FC0FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				473433E520206797000FC0FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		473433E920206797000FC0FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				473433EA20206797000FC0FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4734340320206797000FC0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4734340420206797000FC0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4734340620206797000FC0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 063FB54194C1107FCAC72D41 /* Pods-Day4(PhotoZoom).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WA2B6HK38M;
+				INFOPLIST_FILE = "Day4(PhotoZoom)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leftrightmind.StopWatch.Day4-PhotoZoom-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4734340720206797000FC0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7412C34F460F93B5AB49C90D /* Pods-Day4(PhotoZoom).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WA2B6HK38M;
+				INFOPLIST_FILE = "Day4(PhotoZoom)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leftrightmind.StopWatch.Day4-PhotoZoom-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4734340920206797000FC0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE6873AF04228FBE36938A1F /* Pods-Day4(PhotoZoom)Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WA2B6HK38M;
+				INFOPLIST_FILE = "Day4(PhotoZoom)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leftrightmind.StopWatch.Day4-PhotoZoom-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day4(PhotoZoom).app/Day4(PhotoZoom)";
+			};
+			name = Debug;
+		};
+		4734340A20206797000FC0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88C6D765D047655B22B58035 /* Pods-Day4(PhotoZoom)Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WA2B6HK38M;
+				INFOPLIST_FILE = "Day4(PhotoZoom)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leftrightmind.StopWatch.Day4-PhotoZoom-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day4(PhotoZoom).app/Day4(PhotoZoom)";
+			};
+			name = Release;
+		};
+		4734340C20206797000FC0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4990CB503D367B6EA7D1C707 /* Pods-Day4(PhotoZoom)UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WA2B6HK38M;
+				INFOPLIST_FILE = "Day4(PhotoZoom)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leftrightmind.StopWatch.Day4-PhotoZoom-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Day4(PhotoZoom)";
+			};
+			name = Debug;
+		};
+		4734340D20206797000FC0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B02FC01D6C9CA1F7DADC1541 /* Pods-Day4(PhotoZoom)UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WA2B6HK38M;
+				INFOPLIST_FILE = "Day4(PhotoZoom)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leftrightmind.StopWatch.Day4-PhotoZoom-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Day4(PhotoZoom)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		473433D820206797000FC0FA /* Build configuration list for PBXProject "Day4(PhotoZoom)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4734340320206797000FC0FA /* Debug */,
+				4734340420206797000FC0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4734340520206797000FC0FA /* Build configuration list for PBXNativeTarget "Day4(PhotoZoom)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4734340620206797000FC0FA /* Debug */,
+				4734340720206797000FC0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4734340820206797000FC0FA /* Build configuration list for PBXNativeTarget "Day4(PhotoZoom)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4734340920206797000FC0FA /* Debug */,
+				4734340A20206797000FC0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4734340B20206797000FC0FA /* Build configuration list for PBXNativeTarget "Day4(PhotoZoom)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4734340C20206797000FC0FA /* Debug */,
+				4734340D20206797000FC0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 473433D520206797000FC0FA /* Project object */;
+}

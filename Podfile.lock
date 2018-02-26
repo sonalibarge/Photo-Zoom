@@ -1,0 +1,21 @@
+PODS:
+  - Agrume (4.0.2)
+
+DEPENDENCIES:
+  - Agrume (from `https://github.com/JanGorman/Agrume.git`)
+
+EXTERNAL SOURCES:
+  Agrume:
+    :git: https://github.com/JanGorman/Agrume.git
+
+CHECKOUT OPTIONS:
+  Agrume:
+    :commit: 0a1d7bbdfa4aff2bbe79ea8b400fd7dc5503cc7c
+    :git: https://github.com/JanGorman/Agrume.git
+
+SPEC CHECKSUMS:
+  Agrume: 3d16c5f984a707c5b23ef2c948a257cfcfec7b2c
+
+PODFILE CHECKSUM: b2bc818eb5025ac2d3e0c6ef45489301e674ae3d
+
+COCOAPODS: 1.3.1
